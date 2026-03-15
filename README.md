@@ -44,19 +44,25 @@ Part of the [NEUU](https://github.com/neuu-org) biblical scholarship ecosystem.
 | Nova Versao Internacional | NVI | 4.4 MB |
 | Nova Vida Nova Traducao | NVT | 4.5 MB |
 
+## Pipeline
+
+```
+00_raw  --[normalize.py]-->  01_structured
+```
+
 ## Structure
 
 ```
 bible-text-dataset/
 ├── data/
-│   ├── english/           # 7 translations
-│   │   ├── KJV.json
-│   │   ├── ASV.json
-│   │   └── ...
-│   └── portuguese/        # 13 translations
-│       ├── NVI.json
-│       ├── ARA.json
-│       └── ...
+│   ├── 00_raw/                      # Original files (mixed schemas)
+│   │   ├── english/
+│   │   └── portuguese/
+│   └── 01_structured/               # Normalized to unified schema
+│       ├── english/
+│       └── portuguese/
+├── scripts/
+│   └── normalize.py                 # 00_raw -> 01_structured
 └── README.md, CHANGELOG.md, LICENSE
 ```
 
