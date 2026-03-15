@@ -8,8 +8,8 @@ Part of the [NEUU](https://github.com/neuu-org) biblical scholarship ecosystem.
 
 | Metric | Value |
 |--------|-------|
-| Total translations | 20 |
-| English versions | 7 |
+| Total translations | 22 |
+| English versions | 9 |
 | Portuguese versions | 13 |
 | Format | JSON (book > chapter > verse) |
 | Total size | ~98 MB |
@@ -21,9 +21,11 @@ Part of the [NEUU](https://github.com/neuu-org) biblical scholarship ecosystem.
 | Version | Abbreviation | Size |
 |---------|:---:|---:|
 | King James Version | KJV | 8.2 MB |
+| American King James Version | AKJV | 8.2 MB |
 | American Standard Version | ASV | 8.2 MB |
 | Berean Standard Bible | BSB | 8.0 MB |
 | Darby English Bible | Darby | 4.3 MB |
+| Douay-Rheims-Challoner | DRC | 9.5 MB |
 | Geneva Bible (1599) | Geneva1599 | 4.4 MB |
 | Webster's Revision | Webster | 4.4 MB |
 | Young's Literal Translation | YLT | 4.3 MB |
