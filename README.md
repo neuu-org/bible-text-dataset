@@ -8,9 +8,10 @@ Part of the [NEUU](https://github.com/neuu-org) biblical scholarship ecosystem.
 
 | Metric | Value |
 |--------|-------|
-| Total translations | 22 |
+| Total translations | 17 |
 | English versions | 9 |
-| Portuguese versions | 13 |
+| Portuguese versions | 8 |
+| Embeddings available | 1,057,990 (dual small+large) |
 | Format | JSON (book > chapter > verse) |
 | Total size | ~98 MB |
 
@@ -34,19 +35,14 @@ Part of the [NEUU](https://github.com/neuu-org) biblical scholarship ecosystem.
 
 | Version | Abbreviation | Size |
 |---------|:---:|---:|
-| Nova Versao Internacional | NVI | 4.4 MB |
-| Nova Traducao na Linguagem de Hoje | NTLH | 5.1 MB |
-| Nova Biblia Viva | NBV | 4.9 MB |
-| Nova Almeida Atualizada | NAA | 4.5 MB |
-| Nova Vida Nova Traducao | NVT | 4.5 MB |
-| King James Atualizada | KJA | 4.4 MB |
-| King James Fiel | KJF | 4.5 MB |
-| Traducao Brasileira | TB | 4.4 MB |
-| Almeida Revista e Atualizada | ARA | 4.1 MB |
 | Almeida Corrigida e Fiel | ACF | 4.1 MB |
+| Almeida Revista e Atualizada | ARA | 4.1 MB |
 | Almeida Revista e Corrigida | ARC | 3.9 MB |
 | Almeida Seculo 21 | AS21 | 3.8 MB |
-| Jornada do Filho Amado Atualizada | JFAA | 3.9 MB |
+| Nova Almeida Atualizada | NAA | 4.5 MB |
+| Nova Traducao na Linguagem de Hoje | NTLH | 5.1 MB |
+| Nova Versao Internacional | NVI | 4.4 MB |
+| Nova Vida Nova Traducao | NVT | 4.5 MB |
 
 ## Structure
 
