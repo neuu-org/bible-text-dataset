@@ -1,6 +1,6 @@
 # Bible Text Dataset
 
-20 Bible translations (7 English + 13 Portuguese) in structured JSON format, organized for NLP, information retrieval, and computational theology research.
+17 Bible translations (9 English + 8 Portuguese) in structured JSON format, organized for NLP, information retrieval, and computational theology research.
 
 Part of the [NEUU](https://github.com/neuu-org) biblical scholarship ecosystem.
 
@@ -17,7 +17,7 @@ Part of the [NEUU](https://github.com/neuu-org) biblical scholarship ecosystem.
 
 ## Translations
 
-### English (7)
+### English (9)
 
 | Version | Abbreviation | Size |
 |---------|:---:|---:|
@@ -31,7 +31,7 @@ Part of the [NEUU](https://github.com/neuu-org) biblical scholarship ecosystem.
 | Webster's Revision | Webster | 4.4 MB |
 | Young's Literal Translation | YLT | 4.3 MB |
 
-### Portuguese (13)
+### Portuguese (8)
 
 | Version | Abbreviation | Size |
 |---------|:---:|---:|
