@@ -1,0 +1,36 @@
+Bible Text Dataset
+Copyright (c) 2026 NEUU
+
+This project is licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0). See the LICENSE file for the full legal
+text.
+
+When reusing this dataset, please include the following attribution:
+
+    Bible Text Dataset by NEUU (https://github.com/neuu-org/bible-text-dataset),
+    licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
+
+## Scope of the CC BY 4.0 license
+
+The CC BY 4.0 license applies to NEUU's structured dataset format, the
+normalization pipeline, and the accompanying documentation in this
+repository (i.e. the work NEUU has added on top of the source texts).
+
+## Provenance of the underlying translations
+
+This repository packages 17 Bible translations (9 English, 8 Portuguese;
+see the Translations tables in README.md for the full list of names and
+abbreviations). The underlying translation texts themselves are not
+authored by NEUU. README.md's License section states that all included
+translations are in the public domain or distributed under open licenses
+(e.g. the King James Version and other historical English translations
+used here are in the public domain).
+
+This repository does not track, per translation, the specific original
+source (download URL, upstream repository, or publisher) each text file
+was sourced from, nor a per-translation breakdown of license terms beyond
+the "public domain or open license" statement above. Anyone requiring
+translation-specific provenance or license confirmation for redistribution
+purposes should verify it independently against the original publisher of
+that translation before relying on it. If you have this information and
+can contribute it, a pull request improving this NOTICE is welcome.

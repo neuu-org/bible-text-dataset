@@ -4,6 +4,34 @@
 
 Part of the [NEUU](https://github.com/neuu-org) biblical scholarship ecosystem.
 
+## Prerequisites: Git LFS
+
+The files under `data/` are stored in **Git LFS**, not in the regular Git
+history. Install `git-lfs` *before* cloning, or you will not get the actual
+data.
+
+```bash
+# Install Git LFS (one-time, per machine)
+git lfs install
+
+# Then clone as usual — LFS content downloads automatically
+git clone https://github.com/neuu-org/bible-text-dataset.git
+```
+
+**Already cloned without Git LFS?** Run this from inside the repo to pull the
+real files:
+
+```bash
+git lfs install
+git lfs pull
+```
+
+**How to tell you got pointer files instead of data**: if a JSON file under
+`data/` is only ~130 bytes and starts with a line like
+`version https://git-lfs.github.com/spec/v1`, Git LFS was not installed when
+you cloned — it downloaded a pointer, not the Bible text. Run the recovery
+commands above to fix it.
+
 ## Overview
 
 | Metric | Value |
@@ -92,7 +120,10 @@ Each JSON file contains a full Bible translation:
 
 ## License
 
-All included Bible translations are in the **public domain** or distributed under open licenses. The structured dataset is released under **CC BY 4.0**.
+This dataset is released under **CC BY 4.0**. See [`LICENSE`](LICENSE) for the
+full legal text, [`NOTICE`](NOTICE) for the attribution string and
+translation provenance notes, and [`CITATION.cff`](CITATION.cff) for citation
+metadata.
 
 ## Citation
 
